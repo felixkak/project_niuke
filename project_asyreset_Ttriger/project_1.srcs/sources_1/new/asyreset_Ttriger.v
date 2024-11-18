@@ -24,4 +24,4 @@
 module asyreset_Ttriger(
 
     );
-endmodule
+endmodul
