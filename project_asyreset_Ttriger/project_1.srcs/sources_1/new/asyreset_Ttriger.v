@@ -21,6 +21,25 @@
 
 
 module asyreset_Ttriger(
+    input wire data, clk, rst,
+    output reg q  
+);
+    //*************code***********//
 
-    );
+    reg data_1;
+    always @ (posedge clk or negedge rst) begin
+        if (!rst)
+            data_1 <= 1'b0;
+        else
+            data_1 <= data ^ data_1 ;
+    end
+    
+    always @ (posedge clk or negedge rst) begin
+        if (!rst)
+            q <= 1'b0;
+        else
+            q <= data_1 ^ q;
+    end
+    //*************code***********//
+
 endmodule
