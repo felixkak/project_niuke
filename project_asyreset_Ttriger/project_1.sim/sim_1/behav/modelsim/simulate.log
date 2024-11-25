@@ -1,0 +1,93 @@
+# //  ModelSim SE-64 2019.2 Apr 17 2019
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {asyreset_Ttriger_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -lib xil_defaultlib xil_defaultlib.asyreset_Ttriger_tb xil_defaultlib.glbl 
+# Start time: 20:46:49 on Nov 25,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.asyreset_Ttriger_tb(fast)
+# Loading work.asyreset_Ttriger(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../../../../project_1.srcs/sim_1/new/asyreset_Ttriger_tb.v(51)
+#    Time: 1 us  Iteration: 0  Instance: /asyreset_Ttriger_tb
+# Break in Module asyreset_Ttriger_tb at ../../../../project_1.srcs/sim_1/new/asyreset_Ttriger_tb.v line 51
+add wave -position insertpoint sim:/asyreset_Ttriger_tb/u_Tff_2/*
+add dataflow sim:/asyreset_Ttriger_tb/*
+add dataflow  \
+sim:/asyreset_Ttriger_tb/u_Tff_2/data_1
+add dataflow  \
+sim:/asyreset_Ttriger_tb/u_Tff_2/data_1
+add dataflow /asyreset_Ttriger_tb/u_Tff_2/data /asyreset_Ttriger_tb/u_Tff_2/rst /asyreset_Ttriger_tb/u_Tff_2/clk /asyreset_Ttriger_tb/u_Tff_2/data_1
+# Causality operation skipped due to absence of debug database file
+restart
+# Closing VCD file "out.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.asyreset_Ttriger_tb(fast)
+# Loading work.asyreset_Ttriger(fast)
+# Loading work.glbl(fast)
+run -all
+# ** Note: $stop    : ../../../../project_1.srcs/sim_1/new/asyreset_Ttriger_tb.v(51)
+#    Time: 1 us  Iteration: 0  Instance: /asyreset_Ttriger_tb
+# Break in Module asyreset_Ttriger_tb at ../../../../project_1.srcs/sim_1/new/asyreset_Ttriger_tb.v line 51
+# UndoStart or Redo start was not called Add {add wave -noupdate -position 5 -tree .main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 /asyreset_Ttriger_tb/u_Tff_2/data_1}
+#  Trace back: 
+#    <5:eval:1: ::Wave::UndoRedoCaptureTransform Add {add wave -noupdate -position 5 -tree .main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 /asyreset_Ttriger_tb/u_Tff_2/data_1}
+#    <4:eval:1: ::df_causeSet .main_pane.dataflow.interior.cs.body.pw.df.c
+#    >3:eval:1: ::.main_pane.dataflow.interior.cs.body.pw.df.c Action .main_pane.dataflow trace_set
+#    <2:proc:7: ::namespace inscope :: {.main_pane.dataflow.interior.cs.body.pw.df.c Action} .main_pane.dataflow trace_set
+#    >1:proc:-1: ::.vcop Action trace_set
+# UndoStart or Redo start was not called Add {add wave -noupdate -position 4 -divider Inouts:}
+#  Trace back: 
+#    <5:eval:1: ::Wave::UndoRedoCaptureTransform Add {add wave -noupdate -position 4 -divider Inouts:}
+#    <4:eval:1: ::df_causeSet .main_pane.dataflow.interior.cs.body.pw.df.c
+#    >3:eval:1: ::.main_pane.dataflow.interior.cs.body.pw.df.c Action .main_pane.dataflow trace_set
+#    <2:proc:7: ::namespace inscope :: {.main_pane.dataflow.interior.cs.body.pw.df.c Action} .main_pane.dataflow trace_set
+#    >1:proc:-1: ::.vcop Action trace_set
+# UndoStart or Redo start was not called Add {add wave -noupdate -position 3 -tree .main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 /asyreset_Ttriger_tb/u_Tff_2/clk}
+#  Trace back: 
+#    <5:eval:1: ::Wave::UndoRedoCaptureTransform Add {add wave -noupdate -position 3 -tree .main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 /asyreset_Ttriger_tb/u_Tff_2/clk}
+#    <4:eval:1: ::df_causeSet .main_pane.dataflow.interior.cs.body.pw.df.c
+#    >3:eval:1: ::.main_pane.dataflow.interior.cs.body.pw.df.c Action .main_pane.dataflow trace_set
+#    <2:proc:7: ::namespace inscope :: {.main_pane.dataflow.interior.cs.body.pw.df.c Action} .main_pane.dataflow trace_set
+#    >1:proc:-1: ::.vcop Action trace_set
+# UndoStart or Redo start was not called Add {add wave -noupdate -position 2 -tree .main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 /asyreset_Ttriger_tb/u_Tff_2/rst}
+#  Trace back: 
+#    <5:eval:1: ::Wave::UndoRedoCaptureTransform Add {add wave -noupdate -position 2 -tree .main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 /asyreset_Ttriger_tb/u_Tff_2/rst}
+#    <4:eval:1: ::df_causeSet .main_pane.dataflow.interior.cs.body.pw.df.c
+#    >3:eval:1: ::.main_pane.dataflow.interior.cs.body.pw.df.c Action .main_pane.dataflow trace_set
+#    <2:proc:7: ::namespace inscope :: {.main_pane.dataflow.interior.cs.body.pw.df.c Action} .main_pane.dataflow trace_set
+#    >1:proc:-1: ::.vcop Action trace_set
+# UndoStart or Redo start was not called Add {add wave -noupdate -position 1 -tree .main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 /asyreset_Ttriger_tb/u_Tff_2/data}
+#  Trace back: 
+#    <5:eval:1: ::Wave::UndoRedoCaptureTransform Add {add wave -noupdate -position 1 -tree .main_pane.dataflow.interior.cs.body.pw.wf.top.tree.tree1 /asyreset_Ttriger_tb/u_Tff_2/data}
+#    <4:eval:1: ::df_causeSet .main_pane.dataflow.interior.cs.body.pw.df.c
+#    >3:eval:1: ::.main_pane.dataflow.interior.cs.body.pw.df.c Action .main_pane.dataflow trace_set
+#    <2:proc:7: ::namespace inscope :: {.main_pane.dataflow.interior.cs.body.pw.df.c Action} .main_pane.dataflow trace_set
+#    >1:proc:-1: ::.vcop Action trace_set
+# UndoStart or Redo start was not called Add {add wave -noupdate -position 0 -divider Inputs:}
+#  Trace back: 
+#    <5:eval:1: ::Wave::UndoRedoCaptureTransform Add {add wave -noupdate -position 0 -divider Inputs:}
+#    <4:eval:1: ::df_causeSet .main_pane.dataflow.interior.cs.body.pw.df.c
+#    >3:eval:1: ::.main_pane.dataflow.interior.cs.body.pw.df.c Action .main_pane.dataflow trace_set
+#    <2:proc:7: ::namespace inscope :: {.main_pane.dataflow.interior.cs.body.pw.df.c Action} .main_pane.dataflow trace_set
+#    >1:proc:-1: ::.vcop Action trace_set
+# Need to have two nets selected
+# {net /asyreset_Ttriger_tb/u_Tff_2/data_1}
+add dataflow /asyreset_Ttriger_tb/u_Tff_2/data
+add dataflow /asyreset_Ttriger_tb/u_Tff_2/clk

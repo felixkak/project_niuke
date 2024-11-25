@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Nov 25 20:44:40 2024
+# Process ID: 34972
+# Current directory: D:/code/Verilog/Vscode_project/project_niuke/project_asyreset_Ttriger/project_1.runs/synth_1
+# Command line: vivado.exe -log asyreset_Ttriger.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source asyreset_Ttriger.tcl
+# Log file: D:/code/Verilog/Vscode_project/project_niuke/project_asyreset_Ttriger/project_1.runs/synth_1/asyreset_Ttriger.vds
+# Journal file: D:/code/Verilog/Vscode_project/project_niuke/project_asyreset_Ttriger/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source asyreset_Ttriger.tcl -notrace
